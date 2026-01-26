@@ -1,0 +1,27 @@
+name: forecasting
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - jupyterlab
+  - ipykernel
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-lightning
+  - pip:
+      - torchmetrics
+      - optuna
+      - pyyaml
+      - tqdm
+      - rich
+      - mlflow
