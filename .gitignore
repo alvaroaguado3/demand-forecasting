@@ -1,0 +1,6 @@
+.kaggle/
+kaggle.json
+*.zip
+*.csv
+data/**
+!data/.gitkeep
